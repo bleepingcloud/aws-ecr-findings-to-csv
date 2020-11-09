@@ -7,7 +7,8 @@ This should be a properly formatted JSON file that contains one or more ECR imag
 example:
 ```
 {
-    "imageScans": [{
+    "imageScans": [
+        {
             "imageScanFindings": {
                 ... truncated > data of first image returned from DescribeImageScanFindings ...
                 }
