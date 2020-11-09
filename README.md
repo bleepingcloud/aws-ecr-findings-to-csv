@@ -1,7 +1,7 @@
 # aws-ecr-findings-to-csv
 Parses the JSON output of one or many images to a csv file
 
-##inputJSONfile
+## inputJSONfile
 This should be a properly formatted JSON file that contains one or more ECR image scan JSON outputs from the AWS ECR DescribeImageScanFindings API wrapped inside a single JSON block named "imageScans"
 
 example:
