@@ -14,7 +14,7 @@ example:
                 }
             },
             "registryId": "123456789012",
-            "repositoryName": "myrepo/prd/image",
+            "repositoryName": "myrepo/prd/image1",
             "imageId": {
                 "imageDigest": "sha256:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
                 "imageTag": "latest"
@@ -30,7 +30,7 @@ example:
                 }
             },
             "registryId": "123456789012",
-            "repositoryName": "myrepo/prd/image",
+            "repositoryName": "myrepo/prd/image2",
             "imageId": {
                 "imageDigest": "sha256:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
                 "imageTag": "latest"
