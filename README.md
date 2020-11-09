@@ -24,7 +24,7 @@ example:
 		},
 		{
 			"imageScanFindings": {
-				"truncated": "... data of first image returned from DescribeImageScanFindings..."
+				"truncated": "... data of second image returned from DescribeImageScanFindings..."
 			},
 			"registryId": "123456789012",
 			"repositoryName": "myrepo/prd/image2",
