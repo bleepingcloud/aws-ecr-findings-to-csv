@@ -1,0 +1,375 @@
+{
+	"imageScans": [{
+			"imageScanFindings": {
+				"findings": [{
+						"name": "CVE-2020-0001",
+						"description": "This is where the description about the finding 1 is populated",
+						"uri": "https://link.to.finding1/source",
+						"severity": "CRITICAL",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package1"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					},
+					{
+						"name": "CVE-2020-0002",
+						"description": "This is where the description about the finding 2 is populated",
+						"uri": "https://link.to.finding2/source",
+						"severity": "CRITICAL",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package2"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					},
+					{
+						"name": "CVE-2020-0003",
+						"description": "This is where the description about the finding 3 is populated",
+						"uri": "https://link.to.finding3/source",
+						"severity": "HIGH",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package3"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					},
+					{
+						"name": "CVE-2020-0004",
+						"description": "This is where the description about the finding 4 is populated",
+						"uri": "https://link.to.finding4/source",
+						"severity": "MEDIUM",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package4"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					},
+					{
+						"name": "CVE-2020-0005",
+						"description": "This is where the description about the finding 5 is populated",
+						"uri": "https://link.to.finding5/source",
+						"severity": "LOW",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package5"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					},
+					{
+						"name": "CVE-2020-0006",
+						"description": "This is where the description about the finding 6 is populated",
+						"uri": "https://link.to.finding6/source",
+						"severity": "INFORMATIONAL",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package6"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					},
+					{
+						"name": "CVE-2020-0007",
+						"description": "This is where the description about the finding 7 is populated",
+						"uri": "https://link.to.finding7/source",
+						"severity": "UNDEFINED",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package7"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					}
+				],
+				"imageScanCompletedAt": "2020-11-01T12:00:00-06:00",
+				"vulnerabilitySourceUpdatedAt": "2020-11-01T08:00:00-06:00",
+				"findingSeverityCounts": {
+					"HIGH": 1,
+					"MEDIUM": 1,
+					"INFORMATIONAL": 1,
+					"LOW": 1,
+					"CRITICAL": 2,
+					"UNDEFINED": 1
+				}
+			},
+			"registryId": "123456789012",
+			"repositoryName": "myrepo/prd/image",
+			"imageId": {
+				"imageDigest": "sha256:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+				"imageTag": "latest"
+			},
+			"imageScanStatus": {
+				"status": "COMPLETE",
+				"description": "The scan was completed successfully."
+			}
+		},
+		{
+			"imageScanFindings": {
+				"findings": [{
+						"name": "CVE-2020-0001",
+						"description": "This is where the description about the finding 1 is populated",
+						"uri": "https://link.to.finding1/source",
+						"severity": "CRITICAL",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package1"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					},
+					{
+						"name": "CVE-2020-0002",
+						"description": "This is where the description about the finding 2 is populated",
+						"uri": "https://link.to.finding2/source",
+						"severity": "CRITICAL",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package2"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					},
+					{
+						"name": "CVE-2020-0003",
+						"description": "This is where the description about the finding 3 is populated",
+						"uri": "https://link.to.finding3/source",
+						"severity": "HIGH",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package3"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					},
+					{
+						"name": "CVE-2020-0004",
+						"description": "This is where the description about the finding 4 is populated",
+						"uri": "https://link.to.finding4/source",
+						"severity": "MEDIUM",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package4"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					},
+					{
+						"name": "CVE-2020-0005",
+						"description": "This is where the description about the finding 5 is populated",
+						"uri": "https://link.to.finding5/source",
+						"severity": "LOW",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package5"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					},
+					{
+						"name": "CVE-2020-0006",
+						"description": "This is where the description about the finding 6 is populated",
+						"uri": "https://link.to.finding6/source",
+						"severity": "INFORMATIONAL",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package6"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					},
+					{
+						"name": "CVE-2020-0007",
+						"description": "This is where the description about the finding 7 is populated",
+						"uri": "https://link.to.finding7/source",
+						"severity": "UNDEFINED",
+						"attributes": [{
+								"key": "package_version",
+								"value": "1.1.0"
+							},
+							{
+								"key": "package_name",
+								"value": "package7"
+							},
+							{
+								"key": "CVSS2_VECTOR",
+								"value": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+							},
+							{
+								"key": "CVSS2_SCORE",
+								"value": "9.5"
+							}
+						]
+					}
+				],
+				"imageScanCompletedAt": "2020-11-01T12:00:00-06:00",
+				"vulnerabilitySourceUpdatedAt": "2020-11-01T08:00:00-06:00",
+				"findingSeverityCounts": {
+					"HIGH": 1,
+					"MEDIUM": 1,
+					"INFORMATIONAL": 1,
+					"LOW": 1,
+					"CRITICAL": 2,
+					"UNDEFINED": 1
+				}
+			},
+			"registryId": "123456789012",
+			"repositoryName": "myrepo/prd/image2",
+			"imageId": {
+				"imageDigest": "sha256:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+				"imageTag": "latest"
+			},
+			"imageScanStatus": {
+				"status": "COMPLETE",
+				"description": "The scan was completed successfully."
+			}
+		}
+	]
+}
