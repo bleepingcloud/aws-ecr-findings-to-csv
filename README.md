@@ -7,39 +7,36 @@ This should be a properly formatted JSON file that contains one or more ECR imag
 example:
 ```
 {
-    "imageScans": [
-        {
-            "imageScanFindings": {
-                ... truncated > data of first image returned from DescribeImageScanFindings ...
-                }
-            },
-            "registryId": "123456789012",
-            "repositoryName": "myrepo/prd/image1",
-            "imageId": {
-                "imageDigest": "sha256:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
-                "imageTag": "latest"
-            },
-            "imageScanStatus": {
-                "status": "COMPLETE",
-                "description": "The scan was completed successfully."
-            }
-        },
-        {
-            "imageScanFindings": {
-                ... truncated > data of second image returned from DescribeImageScanFindings ...
-                }
-            },
-            "registryId": "123456789012",
-            "repositoryName": "myrepo/prd/image2",
-            "imageId": {
-                "imageDigest": "sha256:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
-                "imageTag": "latest"
-            },
-            "imageScanStatus": {
-                "status": "COMPLETE",
-                "description": "The scan was completed successfully."
-            }
-        }
-    ]
+	"imageScans": [{
+			"imageScanFindings": {
+				"truncated": "... data of first image returned from DescribeImageScanFindings..."
+			},
+			"registryId": "123456789012",
+			"repositoryName": "myrepo/prd/image1",
+			"imageId": {
+				"imageDigest": "sha256:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+				"imageTag": "latest"
+			},
+			"imageScanStatus": {
+				"status": "COMPLETE",
+				"description": "The scan was completed successfully."
+			}
+		},
+		{
+			"imageScanFindings": {
+				"truncated": "... data of first image returned from DescribeImageScanFindings..."
+			},
+			"registryId": "123456789012",
+			"repositoryName": "myrepo/prd/image2",
+			"imageId": {
+				"imageDigest": "sha256:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+				"imageTag": "latest"
+			},
+			"imageScanStatus": {
+				"status": "COMPLETE",
+				"description": "The scan was completed successfully."
+			}
+		}
+	]
 }
 ```
